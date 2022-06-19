@@ -16,7 +16,7 @@ export default class Contacts extends Component {
                         <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                             <Row>
                                 <Col sm={3}>
-                                    <Nav variant="pills" className="flex-column mt-2" class="nav-link">
+                                    <Nav variant="pills" className="flex-column mt-2">
                                         <Nav.Item>
                                             <Nav.Link eventKey="first">Контакты</Nav.Link>
                                         </Nav.Item>
