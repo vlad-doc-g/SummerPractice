@@ -111,3 +111,15 @@
   width: 100%;
   height: 100%;
 }
+.contacts-button:hover {
+  color: #FFF;
+  background-color: #282c34;
+}
+.contacts-button {
+  color: rgb(189, 187, 187) !important;
+}
+.contacts-button.active{
+  color: rgb(17, 43, 148) !important;
+  background-color:rgb(23, 158, 175) !important;
+  opacity: 0.8;
+}
