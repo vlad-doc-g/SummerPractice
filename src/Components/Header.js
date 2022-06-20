@@ -27,11 +27,11 @@ export default class Header extends Component {
                                     defaultActiveKey="/home"
                                     className="mr-auto"
                                 >
-                                    <Nav.Link href="/development"> Разработка </Nav.Link>
-                                    <Nav.Link href="/works"> Работы </Nav.Link>
-                                    <Nav.Link href="/history"> История </Nav.Link>
-                                    <Nav.Link href="/geography"> География </Nav.Link>
-                                    <Nav.Link href="/contacts"> Контакты </Nav.Link>
+                                    <Nav.Link href="/SummerPractice/development"> Разработка </Nav.Link>
+                                    <Nav.Link href="/SummerPractice/works"> Работы </Nav.Link>
+                                    <Nav.Link href="/SummerPractice/history"> История </Nav.Link>
+                                    <Nav.Link href="/SummerPractice/geography"> География </Nav.Link>
+                                    <Nav.Link href="/SummerPractice/contacts"> Контакты </Nav.Link>
                                 </Nav>
                             </Navbar.Collapse>
                         </Container>

@@ -13,19 +13,19 @@ import Works from './Pages/Works'
 export const AppRoutes = () => {
     return (
         <Switch>
-            <Route exact path="/" component={Home}/>
-            <Route exact path="/development" component={Development}/>
-            <Route exact path="/works" component={Works}/>
-            <Route exact path="/history" component={History}/>
-            <Route exact path="/geography" component={Geography}/>
-            <Route exact path="/contacts" component={Contacts}/>
+            <Route exact path="/SummerPractice" component={Home}/>
+            <Route exact path="/SummerPractice/development" component={Development}/>
+            <Route exact path="/SummerPractice/works" component={Works}/>
+            <Route exact path="/SummerPractice/history" component={History}/>
+            <Route exact path="/SummerPractice/geography" component={Geography}/>
+            <Route exact path="/SummerPractice/contacts" component={Contacts}/>
             <Route
                 path="*"
                 render={({ location }) => {
                     return (
                         <Redirect
                             to={{
-                                pathname: '/',
+                                pathname: '/SummerPractice',
                                 from: location,
                             }}
                         />
