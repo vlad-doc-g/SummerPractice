@@ -1,5 +1,4 @@
 name: NodeJS React
-CI = false
 
 on:
   push:
@@ -8,6 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+      CI = false
 
     steps:
       - name: ⬇️ Checkout repository
