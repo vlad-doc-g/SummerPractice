@@ -10,6 +10,7 @@ export default class Contacts extends Component {
                     className="d-block w-100"
                     class='back-photo-contacts'
                     src={ant}
+                    alt="antennacont"
                 />
                 <div class='contacts-container'>
                     <Container>

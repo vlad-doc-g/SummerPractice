@@ -11,6 +11,7 @@ export default class Development extends Component {
                         className="d-block w-100"
                         class='back-photo-razrabotka'
                         src={bckgr}
+                        alt="antennadev"
                     />
                 </div>
                 <div className='text-razrab'>
