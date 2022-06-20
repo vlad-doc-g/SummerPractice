@@ -123,3 +123,10 @@
   background-color:rgb(23, 158, 175) !important;
   opacity: 0.8;
 }
+.home-textb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+}
