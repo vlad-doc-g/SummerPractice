@@ -5,31 +5,31 @@ import ant from '../assets/vitino.jpg'
 export default class Contacts extends Component {
     render() {
         return (
-            <div class="back-photo-container">
+            <div>
                 <img
                     className="d-block w-100"
-                    class='back-photo'
+                    class='back-photo-contacts'
                     src={ant}
                 />
                 <div class='contacts-container'>
                     <Container>
-                        <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+                        <Tab.Container id="left-tabs-example" defaultActiveKey="kontakty">
                             <Row>
                                 <Col sm={3}>
                                     <Nav variant="pills" className="flex-column mt-2">
                                         <Nav.Item>
-                                            <Nav.Link eventKey="first" className="contacts-button">Контакты</Nav.Link>
+                                            <Nav.Link eventKey="kontakty" className="contacts-button">Контакты</Nav.Link>
                                         </Nav.Item>
 
                                         <Nav.Item>
-                                            <Nav.Link eventKey="second" className="contacts-button">Реквизиты</Nav.Link>
+                                            <Nav.Link eventKey="rekvizity" className="contacts-button">Реквизиты</Nav.Link>
                                         </Nav.Item>
                                     </Nav>
                                 </Col>
 
                                 <Col sm={9}>
                                     <Tab.Content>
-                                        <Tab.Pane eventKey="first">
+                                        <Tab.Pane eventKey="kontakty">
                                             <p>Телефоны для связи:</p>
                                             <p>+7(968) 667-40-31
                                             <br/>+7(496) 754-07-27
@@ -42,7 +42,7 @@ export default class Contacts extends Component {
                                             <p>142103 Россия, Московская обл.,
                                             <br/>г. Подольск, ул. Железнодорожная, д.1, стр. 1.</p>            
                                         </Tab.Pane>
-                                        <Tab.Pane eventKey="second">
+                                        <Tab.Pane eventKey="rekvizity">
                                             <p>Общество с ограниченной ответственностью "Специальный монтаж средств связи"
                                             <br/>сокр. ООО "Спецмонтаж"</p>
                                             <p>ИНН: 5036002057
