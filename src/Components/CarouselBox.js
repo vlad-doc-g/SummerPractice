@@ -4,7 +4,6 @@ import tna1500mo from '../assets/tna1500mo.jpg'
 import rt70 from '../assets/rt70.jpg'
 import rtf32 from '../assets/rtf32.jpg'
 import tna1500 from '../assets/tna1500.jpg'
-import tna400 from '../assets/tna400.jpg'
 
 
 export default class CarouselBox extends Component {
@@ -49,16 +48,6 @@ export default class CarouselBox extends Component {
                     />
                     <Carousel.Caption>
                         <h3>ТНА-1500 Калязин</h3>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item className="carousel-home">
-                    <img 
-                        className="d-block w-100"
-                        src={tna400}
-                        alt='антенна'
-                    />
-                    <Carousel.Caption>
-                        <h3>ТНА-400</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
