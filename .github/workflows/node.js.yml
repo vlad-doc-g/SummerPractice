@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-      CI = false
+      env:CI = false
 
     steps:
       - name: ⬇️ Checkout repository
