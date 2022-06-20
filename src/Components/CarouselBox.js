@@ -5,7 +5,6 @@ import rt70 from '../assets/rt70.jpg'
 import rtf32 from '../assets/rtf32.jpg'
 import tna1500 from '../assets/tna1500.jpg'
 
-
 export default class CarouselBox extends Component {
     render() {
         return(
