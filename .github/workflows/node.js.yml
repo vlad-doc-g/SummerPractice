@@ -3,11 +3,11 @@ name: NodeJS React
 on:
   push:
     branches: ['master']
-
+env:
+    CI: false
 jobs:
   build:
     runs-on: ubuntu-latest
-      env:CI = false
 
     steps:
       - name: ⬇️ Checkout repository
