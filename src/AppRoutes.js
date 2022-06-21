@@ -19,19 +19,19 @@ export const AppRoutes = () => {
             <Route exact path="/history" component={History}/>
             <Route exact path="/geography" component={Geography}/>
             <Route exact path="/contacts" component={Contacts}/>
-            <Route
-                path="*"
-                render={({ location }) => {
-                    return (
-                        <Redirect
-                            to={{
-                                pathname: '/',
-                                from: location,
-                            }}
-                        />
-                    )
-                }}
-            />
+//             <Route
+//                 path="*"
+//                 render={({ location }) => {
+//                     return (
+//                         <Redirect
+//                             to={{
+//                                 pathname: '/',
+//                                 from: location,
+//                             }}
+//                         />
+//                     )
+//                 }}
+//             />
         </Switch>
     )
 }
