@@ -14,11 +14,11 @@ export const AppRoutes = () => {
     return (
         <Switch>
             <Route exact path="/" component={Home}/>
-            <Route exact path="/development" component={Development}/>
-            <Route exact path="/works" component={Works}/>
-            <Route exact path="/history" component={History}/>
-            <Route exact path="/geography" component={Geography}/>
-            <Route exact path="/contacts" component={Contacts}/>
+            <Route path="/development" component={Development}/>
+            <Route path="/works" component={Works}/>
+            <Route path="/history" component={History}/>
+            <Route path="/geography" component={Geography}/>
+            <Route path="/contacts" component={Contacts}/>
         </Switch>
     )
 }
