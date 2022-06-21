@@ -152,9 +152,6 @@
 .photo-razrabotka {
   width: 90%;
 }
-.Contacts {
-  overflow-y: hidden
-}
 .text-works {
   display: flex;
   justify-content: center;
@@ -184,4 +181,15 @@
   height: 100%;
   font-size:17px;
   text-align: justify;
+}
+.Footer {
+  background-color: #282c34;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+  opacity: 0.7;
+}
+.devby {
+  margin-left: auto;
+  margin-right: auto
 }

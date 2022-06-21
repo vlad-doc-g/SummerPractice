@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from "./Components/Header";
 import {AppRoutes} from './AppRoutes'
+import Footer from "./Components/Footer"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <div>
         <Header />
         <AppRoutes />
+        <Footer />
       </div>
     </Router>
   );
