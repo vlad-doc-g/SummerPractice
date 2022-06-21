@@ -1,11 +1,50 @@
 import React, {Component} from 'react'
+import map from '../assets/map.jpg'
+import {Col} from 'react-bootstrap'
+import geog from '../assets/geogrbck.jpg'
 
-export default class Geography extends Component {
+export default class Development extends Component {
     render() {
         return (
-            <div>
-                География работ
-            </div>
+            <>
+                <div class="back-photo-container-razrabotka">
+                    <img
+                        className="d-block w-100"
+                        class='back-photo-razrabotka'
+                        src={geog}
+                        alt="background"
+                    />
+                </div>
+                <div className='text-razrab'>
+                    <Col sm={6}>
+                        <div>
+                            <img
+                                className="d-block w-100"
+                                class='photo-razrabotka'
+                                src={map}
+                                alt="map"
+                            />
+                        </div>
+                    </Col>
+
+                    <Col sm={6}>
+                        <div>Федеральное государственное унитарное предприятие «Ростовский-на-дону научно-исследовательский институт радиосвязи»
+                            <br/>____________________________________________________
+                            <br/>Акционерное общество «Центр эксплуатации объектов наземной космической инфраструктуры»
+                            <br/>____________________________________________________
+                            <p/>Акционерное общество «Особое конструкторское бюро Московского энергетического института»
+                            <br/>____________________________________________________
+                            <p/>Акционерное общество «Российские космические системы»
+                            <br/>____________________________________________________
+                            <p/>Предприятия, входящие в Концерн  Акционерного общества «Концерн воздушно-космической обороны "Алмаз – Антей»
+                            <br/>____________________________________________________
+                            <p/>Федеральное государственное бюджетное учреждение науки Институт прикладной астрономии Российской академии наук
+                            <br/>____________________________________________________
+                            <p/>VERTEX ANTENNENTECHNIK GmbH (Германия)
+                        </div>
+                    </Col>
+                </div>
+            </>
         )
     }
 }
