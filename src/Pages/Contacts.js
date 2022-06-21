@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Container, Tab, Nav, Row, Col} from 'react-bootstrap'
-import ant from '../assets/vitino.jpg'
+import ant from '../assets/vitinosh.jpg'
 
 export default class Contacts extends Component {
     render() {
