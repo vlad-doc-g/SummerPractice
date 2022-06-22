@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SummerPractice/static/css/main.b6e75b8d.css",
-    "main.js": "/SummerPractice/static/js/main.44ce7c80.js",
+    "main.js": "/SummerPractice/static/js/main.381cc733.js",
     "static/js/787.28cb0dcd.chunk.js": "/SummerPractice/static/js/787.28cb0dcd.chunk.js",
     "static/media/antv.mp4": "/SummerPractice/static/media/antv.deb80e90af1795ee8314.mp4",
     "static/media/razrab.jpg": "/SummerPractice/static/media/razrab.8ff2cc269c7517ccae3a.jpg",
@@ -13,17 +13,18 @@
     "static/media/kalyaz-fon.jpg": "/SummerPractice/static/media/kalyaz-fon.dd191edaea65fa84012a.jpg",
     "static/media/rtf32.jpg": "/SummerPractice/static/media/rtf32.c5cc13c204a05dad35f3.jpg",
     "static/media/rt70.jpg": "/SummerPractice/static/media/rt70.eb9c58b9cdc77e59d5fb.jpg",
+    "static/media/razbacksh.jpg": "/SummerPractice/static/media/razbacksh.86a660c781ae45d7a1d7.jpg",
     "static/media/vitinosh.jpg": "/SummerPractice/static/media/vitinosh.72a8e981f0392d7b1783.jpg",
     "static/media/workspageback.jpg": "/SummerPractice/static/media/workspageback.2081970a582cea2df72a.jpg",
     "static/media/map.jpg": "/SummerPractice/static/media/map.323eaee09a838da5d692.jpg",
     "static/media/satlog.png": "/SummerPractice/static/media/satlog.15442580e09fe22720e2.png",
     "index.html": "/SummerPractice/index.html",
     "main.b6e75b8d.css.map": "/SummerPractice/static/css/main.b6e75b8d.css.map",
-    "main.44ce7c80.js.map": "/SummerPractice/static/js/main.44ce7c80.js.map",
+    "main.381cc733.js.map": "/SummerPractice/static/js/main.381cc733.js.map",
     "787.28cb0dcd.chunk.js.map": "/SummerPractice/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6e75b8d.css",
-    "static/js/main.44ce7c80.js"
+    "static/js/main.381cc733.js"
   ]
 }
