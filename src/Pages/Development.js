@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import bckgr from '../assets/kalyaz-fon.jpg'
 import {Col} from 'react-bootstrap'
 import razr from '../assets/razrab.jpg'
+import razback from '../assets/razbacksh.jpg'
 
 export default class Development extends Component {
     render() {
@@ -12,6 +13,12 @@ export default class Development extends Component {
                         className="d-block w-100"
                         class='back-photo-razrabotka'
                         src={bckgr}
+                        alt="antennadev"
+                    />
+                    <img
+                        className="d-block w-100"
+                        class='back-photo-razrabotka'
+                        src={razback}
                         alt="antennadev"
                     />
                 </div>
