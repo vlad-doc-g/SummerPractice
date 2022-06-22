@@ -5,7 +5,8 @@ import CarouselBox from '../Components/CarouselBox'
 export default class Home extends Component {
     render() {
         return (
-            <><div class="back-video-container">
+            <>
+            <div className="back-video-container">
                 <video
                     controls
                     autoPlay
@@ -15,14 +16,17 @@ export default class Home extends Component {
                 >
                     <source src={video} type="video/mp4" />
                 </video>
-                <div class='back-video-text-container'>
-                    <div class="back-video-text">29 ЛЕТ УСПЕШНОЙ РАБОТЫ!</div>
+                <div className='back-video-text-container'>
+                    <div className="back-video-text">29 ЛЕТ УСПЕШНОЙ РАБОТЫ!</div>
                 </div>
-            </div><div class="home-textb">
-                    <p>Мы принимали участие в строительстве и модернизации таких объектов, как:</p>
-                </div><div>
-                    <CarouselBox />
-                </div></>
+            </div>
+            <div className="home-textb">
+                <p>Мы принимали участие в строительстве и модернизации таких объектов, как:</p>
+            </div>
+            <div>
+                <CarouselBox />
+            </div>
+            </>
         )
     }
 }
