@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SummerPractice/static/css/main.b6e75b8d.css",
-    "main.js": "/SummerPractice/static/js/main.381cc733.js",
+    "main.css": "/SummerPractice/static/css/main.fb0e82ab.css",
+    "main.js": "/SummerPractice/static/js/main.03b683eb.js",
     "static/js/787.28cb0dcd.chunk.js": "/SummerPractice/static/js/787.28cb0dcd.chunk.js",
     "static/media/antv.mp4": "/SummerPractice/static/media/antv.deb80e90af1795ee8314.mp4",
     "static/media/razrab.jpg": "/SummerPractice/static/media/razrab.8ff2cc269c7517ccae3a.jpg",
@@ -19,12 +19,12 @@
     "static/media/map.jpg": "/SummerPractice/static/media/map.323eaee09a838da5d692.jpg",
     "static/media/satlog.png": "/SummerPractice/static/media/satlog.15442580e09fe22720e2.png",
     "index.html": "/SummerPractice/index.html",
-    "main.b6e75b8d.css.map": "/SummerPractice/static/css/main.b6e75b8d.css.map",
-    "main.381cc733.js.map": "/SummerPractice/static/js/main.381cc733.js.map",
+    "main.fb0e82ab.css.map": "/SummerPractice/static/css/main.fb0e82ab.css.map",
+    "main.03b683eb.js.map": "/SummerPractice/static/js/main.03b683eb.js.map",
     "787.28cb0dcd.chunk.js.map": "/SummerPractice/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6e75b8d.css",
-    "static/js/main.381cc733.js"
+    "static/css/main.fb0e82ab.css",
+    "static/js/main.03b683eb.js"
   ]
 }
