@@ -31,7 +31,7 @@ export default class Contacts extends Component {
                                 <Col sm={9}>
                                     <Tab.Content>
                                         <Tab.Pane eventKey="kontakty">
-                                            <p><strong>Телефоны для связи:</strong></p>
+                                            <p><strong>Телефоны для связи123:</strong></p>
                                             <p>+7(968) 667-40-31
                                             <br/>+7(496) 754-07-27
                                             <br/>_________________________________</p>
