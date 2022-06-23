@@ -12,5 +12,6 @@ code {
 }
 
 html, body {
-  font-family: 'Segoe UI' !important;
+  font-family: 'Bebas' !important;
+  src: url(/src/assets/BebasNeue-Regular.ttf);
 }
