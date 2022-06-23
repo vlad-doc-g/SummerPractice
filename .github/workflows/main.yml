@@ -1,0 +1,22 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ master ]
+    
+jobs:
+  job_one:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: testing
+      uses: appleboy/ssh-action@master
+      with:
+        host: 91.227.18.41
+        username: root
+        key: ${{ secrets.DEPLOY_SERVER_KEY }}
+        port: 22
+        script: |
+          cd sites/SummerPractice
+          git pull origin master
+          git status
