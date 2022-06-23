@@ -7,7 +7,7 @@ on:
 jobs:
   job_one:
     name: Deploy
-    runs-on: buntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: testing
       uses: appleboy/ssh-action@master
