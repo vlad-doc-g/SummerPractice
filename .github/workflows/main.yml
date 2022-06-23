@@ -20,5 +20,5 @@ jobs:
           cd sites/SummerPractice
           git pull origin master
           git status
-          npx kill-port 3000
-          npm run start
+          pm2 delete all
+          pm2 --name VladSite start npm -- start
