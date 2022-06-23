@@ -20,6 +20,5 @@ jobs:
           cd sites/SummerPractice
           git pull origin master
           git status
-          npm i
           npx kill-port 3000
           npm start
