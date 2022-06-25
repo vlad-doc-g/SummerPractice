@@ -192,7 +192,10 @@
 .devby {
   display: flex;
   justify-content: center;
+  margin:  0px auto;
   margin:  0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .devby > img {
   margin-right: 10px;

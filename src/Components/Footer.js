@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Nav, Navbar, Container } from 'react-bootstrap'
+import {Navbar, Container } from 'react-bootstrap'
 import logo from '../assets/satlog.png'
 
 export default class Footer extends Component {
@@ -20,9 +20,6 @@ export default class Footer extends Component {
                             </Navbar.Brand>    
                             <div className="devby">
                                 <a href="https://vk.com/vladdoc1">developed by vlad.doc</a>
-                            </div>
-                            <div className='rightsfoot'>
-                            <Nav.Link href="/SummerPractice/rights"> © Все права защищены </Nav.Link>
                             </div>
                         </Container>
                     </Navbar>
