@@ -8,7 +8,6 @@ export default class Home extends Component {
             <>
                 <div className="back-video-container">
                     <video
-                        controls
                         autoPlay
                         loop
                         muted
