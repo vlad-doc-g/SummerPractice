@@ -27,7 +27,7 @@ export const AppRoutes = () => {
                     return (
                         <Redirect
                             to={{
-                                pathname: '/',
+                                pathname: '/SummerPractice',
                                 from: location,
                             }}
                         />
