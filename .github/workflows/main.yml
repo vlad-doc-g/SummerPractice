@@ -19,6 +19,6 @@ jobs:
         script: |
           cd SummerPractice
           git pull origin master
-          git status
-          pm2 delete all
-          PORT=80 pm2 --name VladSite start npm -- start
+          pm2 delete appap_ru
+          PORT=3300 pm2 --name appap_ru start npm -- start
+          pm2 save
