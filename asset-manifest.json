@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/SummerPractice/static/css/main.feb2b222.css",
-    "main.js": "/SummerPractice/static/js/main.18049115.js",
+    "main.css": "/SummerPractice/static/css/main.4f0c4aae.css",
+    "main.js": "/SummerPractice/static/js/main.4b9fc84a.js",
     "static/js/787.28cb0dcd.chunk.js": "/SummerPractice/static/js/787.28cb0dcd.chunk.js",
     "static/media/antv.mp4": "/SummerPractice/static/media/antv.deb80e90af1795ee8314.mp4",
+    "static/media/badary-rt32-winter.jpg": "/SummerPractice/static/media/badary-rt32-winter.578e953d416f358f61be.jpg",
     "static/media/razrab.jpg": "/SummerPractice/static/media/razrab.8ff2cc269c7517ccae3a.jpg",
     "static/media/historypageback.jpg": "/SummerPractice/static/media/historypageback.8dfb009cbc09b36cb596.jpg",
+    "static/media/p2500.jpg": "/SummerPractice/static/media/p2500.505ac737a8937ef61f2a.jpg",
     "static/media/tna1500mo.jpg": "/SummerPractice/static/media/tna1500mo.762b7c9fbf5c890a30a0.jpg",
     "static/media/geogrbck.jpg": "/SummerPractice/static/media/geogrbck.23a1145b018caae733bb.jpg",
     "static/media/tna1500.jpg": "/SummerPractice/static/media/tna1500.458c3c9437b671ccbbf1.jpg",
     "static/media/tna1500s.jpg": "/SummerPractice/static/media/tna1500s.e5e67c11a7b83a9bbd93.jpg",
     "static/media/kalyaz-fon.jpg": "/SummerPractice/static/media/kalyaz-fon.dd191edaea65fa84012a.jpg",
     "static/media/rtf32.jpg": "/SummerPractice/static/media/rtf32.c5cc13c204a05dad35f3.jpg",
+    "static/media/badary2.jpg": "/SummerPractice/static/media/badary2.a1984d9e9a98d7adea16.jpg",
     "static/media/rt70.jpg": "/SummerPractice/static/media/rt70.eb9c58b9cdc77e59d5fb.jpg",
     "static/media/razbacksh.jpg": "/SummerPractice/static/media/razbacksh.86a660c781ae45d7a1d7.jpg",
     "static/media/vitinosh.jpg": "/SummerPractice/static/media/vitinosh.72a8e981f0392d7b1783.jpg",
@@ -20,12 +23,12 @@
     "static/media/map.jpg": "/SummerPractice/static/media/map.323eaee09a838da5d692.jpg",
     "static/media/satlog.png": "/SummerPractice/static/media/satlog.15442580e09fe22720e2.png",
     "index.html": "/SummerPractice/index.html",
-    "main.feb2b222.css.map": "/SummerPractice/static/css/main.feb2b222.css.map",
-    "main.18049115.js.map": "/SummerPractice/static/js/main.18049115.js.map",
+    "main.4f0c4aae.css.map": "/SummerPractice/static/css/main.4f0c4aae.css.map",
+    "main.4b9fc84a.js.map": "/SummerPractice/static/js/main.4b9fc84a.js.map",
     "787.28cb0dcd.chunk.js.map": "/SummerPractice/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.feb2b222.css",
-    "static/js/main.18049115.js"
+    "static/css/main.4f0c4aae.css",
+    "static/js/main.4b9fc84a.js"
   ]
 }
