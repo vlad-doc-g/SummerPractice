@@ -12,6 +12,5 @@ code {
 }
 
 html, body {
-  font-family: 'Bebas' !important;
-  src: url(/src/assets/BebasNeue-Regular.ttf);
+  font-family: 'Oswald', sans-serif;
 }
