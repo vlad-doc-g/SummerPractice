@@ -13,7 +13,7 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: 91.227.18.41
-        username: root
+        username: appap_ru
         key: ${{ secrets.DEPLOY_SERVER_KEY }}
         port: 22
         script: |
