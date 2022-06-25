@@ -20,3 +20,5 @@ jobs:
           cd sites/SummerPractice
           git pull origin master
           git status
+          pm2 delete all
+          PORT=80 pm2 --name VladSite start npm -- start
