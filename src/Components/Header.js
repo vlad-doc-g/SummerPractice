@@ -10,7 +10,7 @@ export default class Header extends Component {
                     <Navbar collapseOnSelect expand="sm">
                         <Container fluid>
                             <Navbar.Brand href="/SummerPractice">
-                            <div ClassName="logoname">
+                            <div сlass="logoname">
                                 <img
                                 src={logo}
                                 height="30"
@@ -18,7 +18,7 @@ export default class Header extends Component {
                                 className="d-inlone-block align-top"
                                 alt="Logo"
                                 />
-                                <div className="name">ГРУППА КОМПАНИЙ <strong>СПЕЦМОНТАЖ</strong></div>
+                                <div class="name">ГРУППА КОМПАНИЙ <strong>СПЕЦМОНТАЖ</strong></div>
                             </div>
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
