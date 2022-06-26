@@ -15,6 +15,7 @@ export default class Home extends Component {
                         autoPlay
                         loop
                         muted
+                        playsinline
                         class='back-video'
                     >
                         <source src={video} type="video/mp4" />
