@@ -8,9 +8,8 @@ export default class Header extends Component {
             <>
                 <div class="header">
                     <Navbar collapseOnSelect expand="sm">
-                        <Container fluid>
-                            <Navbar.Brand href="/SummerPractice">
-                            <div сlass="logoname">
+                        <Container fluid className="logoname2">
+                            <Navbar.Brand className="logoname2" href="/SummerPractice">
                                 <img
                                 src={logo}
                                 height="30"
@@ -19,7 +18,6 @@ export default class Header extends Component {
                                 alt="Logo"
                                 />
                                 <div class="name">ГРУППА КОМПАНИЙ <strong>СПЕЦМОНТАЖ</strong></div>
-                            </div>
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">

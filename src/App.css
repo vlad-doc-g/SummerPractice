@@ -253,11 +253,13 @@
   flex-direction: column;
   min-height: 100%;
   }
-.logoname {
-  display: inline-block;
+.header .navbar-light .navbar-brand {
+  display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+}
+.name {
+  margin-left: 10px;
 }
 .home-text {
   display: none;
@@ -376,6 +378,7 @@
     display: none;
   }
   .home-text {
+    font-size: 40px;
     display: flex;
     color: whitesmoke;
     margin-top: 70px;
@@ -497,4 +500,7 @@
     position: relative;
     margin: auto;
   }
+}
+.absolute {
+  position: absolute;
 }
