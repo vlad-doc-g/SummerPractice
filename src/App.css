@@ -253,6 +253,21 @@
   flex-direction: column;
   min-height: 100%;
   }
+.logoname {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.home-text {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  user-select: none;
+  cursor: disabled;
+}
 
 @media screen and (max-width: 575px) {
   .back-photo-container-razrabotka {
@@ -370,21 +385,7 @@
     margin: auto;
   }
 }
-.logoname {
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-}
-.home-text {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  color: rgb(0, 0, 0);
-  font-size: 40px;
-  user-select: none;
-  cursor: disabled;
-}
+
 @media screen and (min-width: 576px) and (max-width: 1233px){
   .back-photo-container-razrabotka {
     visibility: hidden;
