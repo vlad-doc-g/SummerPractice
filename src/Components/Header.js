@@ -7,17 +7,19 @@ export default class Header extends Component {
         return (
             <>
                 <div class="header">
-                    <Navbar collapseOnSelect>
+                    <Navbar collapseOnSelect expand="sm">
                         <Container fluid>
                             <Navbar.Brand href="/SummerPractice">
+                            <div ClassName="logoname">
                                 <img
-                                    src={logo}
-                                    height="30"
-                                    width="30"
-                                    className="d-inlone-block align-top"
-                                    alt="Logo"
+                                src={logo}
+                                height="30"
+                                width="30"
+                                className="d-inlone-block align-top"
+                                alt="Logo"
                                 />
-                                ГРУППА КОМПАНИЙ <strong>СПЕЦМОНТАЖ</strong>
+                                <div className="name">ГРУППА КОМПАНИЙ <strong>СПЕЦМОНТАЖ</strong></div>
+                            </div>
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">

@@ -6,6 +6,10 @@ export default class Home extends Component {
     render() {
         return (
             <>
+                <div className="home-text">
+                    Группа компаний СПЕЦМОНТАЖ
+                    <br/>Успешно выполняем работы с 1993 года!
+                </div>
                 <div className="back-video-container">
                     <video
                         autoPlay
