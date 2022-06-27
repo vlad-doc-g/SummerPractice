@@ -79,6 +79,9 @@
 .back-video::-webkit-media-controls {
   display:none !important;
 }
+.navbar-toggler-icon {
+  color:rgb(30, 239, 222) !important;
+}
 .back-video-text-container {
   display: flex;
   justify-content: center;
@@ -93,6 +96,10 @@
   color: #FFF;
   font-size: 50px;
   user-select: none;
+}
+.namemob {
+  display: none;
+  margin-left: 10px;
 }
 .contacts-container {
   margin-top: 80px;
@@ -297,9 +304,15 @@
     height: auto;
     overflow: hidden;
   }
+  .footer {
+    display: none;
+  }
   .home-textb{
-    margin-top: 80px;
+    margin-top: 70px;
     color: whitesmoke;
+    justify-content: center;
+    font-size: 30px;
+    display: flex;
   }
   .back-video-text-container{
     visibility: hidden;
@@ -378,14 +391,31 @@
     display: none;
   }
   .home-text {
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     color: whitesmoke;
     margin-top: 70px;
+    justify-content: center;
   }
   .CarBox {
     position: relative;
     margin: auto;
+  }
+  .absolute {
+    position: absolute;
+  }
+  .header {
+    background-color: #282c34;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    user-select: none;
+    opacity: 1 !important;
+  }
+  .namemob {
+    display: flex;
   }
 }
 
@@ -412,8 +442,11 @@
     overflow: hidden;
   }
   .home-textb{
-    margin-top: 80px;
+    margin-top: 70px;
     color: whitesmoke;
+    justify-content: center;
+    font-size: 30px;
+    display: flex;
   }
   .back-video-text-container{
     visibility: hidden;
@@ -495,12 +528,30 @@
     display: flex;
     color: whitesmoke;
     margin-top: 70px;
+    justify-content: center;
+    font-size: 30px;
   }
   .CarBox {
     position: relative;
     margin: auto;
   }
-}
-.absolute {
-  position: absolute;
+  .absolute {
+    position: absolute;
+  }
+  .header {
+    background-color: #282c34;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    user-select: none;
+    opacity: 1 !important;
+  }
+  .namemob {
+    display: flex;
+  }
+  .footer {
+    display: none;
+  }
 }

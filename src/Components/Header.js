@@ -18,6 +18,7 @@ export default class Header extends Component {
                                 alt="Logo"
                                 />
                                 <div class="name">ГРУППА КОМПАНИЙ <strong>СПЕЦМОНТАЖ</strong></div>
+                                <div class="namemob"><strong>СПЕЦМОНТАЖ</strong></div>
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">
