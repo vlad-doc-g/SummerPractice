@@ -395,7 +395,7 @@
     margin-bottom: 50px;
   }
   body {
-    background-color: rgb(184, 113, 21);
+    background-image: url(/src/assets/vitino.jpg);
   }
   .footer {
     visibility: hidden;
@@ -535,7 +535,7 @@
     margin-bottom: 50px;
   }
   body {
-    background-color: rgb(184, 113, 21);
+    background-image: url(/src/assets/vitino.jpg);
   }
   .footer {
     visibility: hidden;
