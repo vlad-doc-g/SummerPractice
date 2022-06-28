@@ -9,7 +9,6 @@ import Contacts from './Pages/Contacts'
 import Geography from './Pages/Geography'
 import History from './Pages/History'
 import Works from './Pages/Works'
-import Rights from './Pages/rights'
 
 export const AppRoutes = () => {
     return (
@@ -20,7 +19,6 @@ export const AppRoutes = () => {
             <Route exact path="/SummerPractice/history" component={History}/>
             <Route exact path="/SummerPractice/geography" component={Geography}/>
             <Route exact path="/SummerPractice/contacts" component={Contacts}/>
-            <Route exact path="/SummerPractice/rights" component={Rights}/>
             <Route
                 path="*"
                 render={({ location }) => {

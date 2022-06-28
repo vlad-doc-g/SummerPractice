@@ -20,7 +20,7 @@ export default class CarouselBox extends Component {
                             alt='антенна'
                         />
                         <Carousel.Caption>
-                            <h3>ТНА-1500 Медвежьи Озёра</h3>
+                            <h3><span>ТНА-1500 Медвежьи Озёра</span></h3>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item className="carousel-home">
@@ -30,7 +30,7 @@ export default class CarouselBox extends Component {
                             alt='антенна'
                         />
                         <Carousel.Caption>
-                            <h3>РТ-70</h3>
+                            <h3><span>РТ-70</span></h3>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item className="carousel-home">
@@ -40,7 +40,7 @@ export default class CarouselBox extends Component {
                             alt='антенна'
                         />
                         <Carousel.Caption>
-                            <h3>РТФ-32</h3>
+                            <h3><span>РТФ-32</span></h3>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item className="carousel-home">
@@ -50,7 +50,7 @@ export default class CarouselBox extends Component {
                             alt='антенна'
                         />
                         <Carousel.Caption>
-                            <h3>ТНА-1500 Калязин</h3>
+                            <h3><span>ТНА-1500 Калязин</span></h3>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item className="carousel-home">
@@ -60,7 +60,7 @@ export default class CarouselBox extends Component {
                             alt='антенна'
                         />
                         <Carousel.Caption>
-                            <h3>РТ-32 Бадары</h3>
+                            <h3><span>РТ-32 Бадары</span></h3>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item className="carousel-home">
@@ -70,7 +70,7 @@ export default class CarouselBox extends Component {
                             alt='антенна'
                         />
                         <Carousel.Caption>
-                            <h3>Комплекс Бадары</h3>
+                            <h3><span>Комплекс Бадары</span></h3>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item className="carousel-home">
@@ -80,7 +80,7 @@ export default class CarouselBox extends Component {
                             alt='антенна'
                         />
                         <Carousel.Caption>
-                            <h3>П-2500 Галёнки</h3>
+                            <h3><span>П-2500 Галёнки</span></h3>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
