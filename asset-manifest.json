@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SummerPractice/static/css/main.27608a67.css",
-    "main.js": "/SummerPractice/static/js/main.f3648974.js",
+    "main.css": "/SummerPractice/static/css/main.9680373e.css",
+    "main.js": "/SummerPractice/static/js/main.a04e15dc.js",
     "static/js/787.28cb0dcd.chunk.js": "/SummerPractice/static/js/787.28cb0dcd.chunk.js",
     "static/media/antv.mp4": "/SummerPractice/static/media/antv.deb80e90af1795ee8314.mp4",
     "static/media/badary-rt32-winter.jpg": "/SummerPractice/static/media/badary-rt32-winter.578e953d416f358f61be.jpg",
@@ -23,12 +23,12 @@
     "static/media/map.jpg": "/SummerPractice/static/media/map.a97a133eb2f092d00883.jpg",
     "static/media/satlog.png": "/SummerPractice/static/media/satlog.15442580e09fe22720e2.png",
     "index.html": "/SummerPractice/index.html",
-    "main.27608a67.css.map": "/SummerPractice/static/css/main.27608a67.css.map",
-    "main.f3648974.js.map": "/SummerPractice/static/js/main.f3648974.js.map",
+    "main.9680373e.css.map": "/SummerPractice/static/css/main.9680373e.css.map",
+    "main.a04e15dc.js.map": "/SummerPractice/static/js/main.a04e15dc.js.map",
     "787.28cb0dcd.chunk.js.map": "/SummerPractice/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27608a67.css",
-    "static/js/main.f3648974.js"
+    "static/css/main.9680373e.css",
+    "static/js/main.a04e15dc.js"
   ]
 }
